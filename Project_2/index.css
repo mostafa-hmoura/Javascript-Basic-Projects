@@ -1,0 +1,18 @@
+.vertical-center{
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+.cen {
+    text-align: center;
+}
+
+.cen > h2 {
+    font-size: 4em;
+}
+.cen > span {
+    font-size: 4em;
+}

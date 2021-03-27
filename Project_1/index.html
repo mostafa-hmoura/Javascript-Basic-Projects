@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+    <title>Color Fliper</title>
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container">
+          <h1 class="navbar-brand">Color Flipper</h1>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" href="index.html">Simple</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="Hex.html">Hex</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    
+    <main>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-sm">
+                    <div class="position-absolute top-50 start-50 translate-middle">
+                        <div class="badge bg-success fs-1">
+                            <span>Background Color : </span>
+                            <span class="color">#f1f5f8</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-sm">
+                    <div class="position-absolute top-50 start-50 translate-middle mg">            
+                        <button class="btn btn-primary"> Change Background Color </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </main>
+
+    <script src="index.js"></script>
+</body>
+</html>
